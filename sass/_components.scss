@@ -467,7 +467,7 @@
     }
 
     &:hover {
-        background-image: linear-gradient(to left, var(--color-primary-light), var(--var-primary-dark));
+        background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark));
     }
 
     &:hover &__visible {
