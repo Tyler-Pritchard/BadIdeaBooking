@@ -13,7 +13,8 @@
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
-  --line: 1px solid var(--color-primary-dark); }
+  --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+  --line: 1px solid var(--color-secondary-dark); }
 
 * {
   margin: 0;
@@ -71,10 +72,14 @@ body {
 .detail {
   display: flex;
   padding: 4.5rem;
-  background-color: var(--line); }
+  background-color: var(--color-grey-light-2);
+  border-bottom: var(--line); }
 
 .description {
-  background-color: orangered;
+  font-size: 1.4rem;
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem; }
 
